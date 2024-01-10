@@ -1,0 +1,123 @@
+body {
+    background-image: linear-gradient(to right, #262626 0%, #090909 100%);
+font-family: "Lucida Console", "Courier New", monospace;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.packet_layer {
+    max-width: 940px;
+    padding: 10px; 
+    color: white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    box-shadow: -1px -1px 15px black;
+
+    background-image: linear-gradient(to right, #737373 0%, #a2a2a2 100%);
+
+
+}
+
+.packet_header {
+    padding: 5px;
+    margin-bottom: 5px;
+    color: white;
+
+    background-image: linear-gradient(to right, #737373 0%, #a2a2a2 100%);
+}
+
+.packet_header h2 {
+    border-bottom: 2px solid black;
+}
+
+
+.eth_packet_layer {
+    
+}
+
+.eth_packet_header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.eth_packet_header li {
+    float: left;
+    padding: 5px;
+    padding-right: 70px;
+    text-decoration: none;
+}
+
+
+
+.ip_packet_layer 
+{
+
+}
+
+.ip_packet_header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+
+.ip_packet_header li {
+    float: left;
+    padding: 5px;
+    padding-right: 70px;
+    text-decoration: none;
+}
+
+
+.tcp_packet_layer li {
+    padding: 5px;
+}
+
+.tcp_packet_layer ul {  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.tcp_packet_header {
+    border-bottom: 1px solid black;
+}
+
+
+.tcp_packet_header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+
+.tcp_packet_header li {
+    float: left;
+    padding: 5px;
+    padding-right: 70px;
+    text-decoration: none;
+}
+
+.hex_bytes {
+    width: 65%;
+}
+
+.ascii_bytes {
+    list-style-type: none;
+    margin-left:3%;
+    width: 32%;
+    background-color: #333333;
+}
+
+.packet_body {
+    display: flex;
+    padding: 5px;
+}
